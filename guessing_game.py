@@ -1,8 +1,9 @@
+from random import randint
+
 print("I'm think of a number between 1 and 10.")
 guess = int(input("Input a number: "))
 # print(guess)
 
-from random import randint
 game = randint(0, 10)
 
 if game == guess :
